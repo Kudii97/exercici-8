@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/fons.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+#nav-bar {
+    background: rgb(49,59,75);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu {
+    padding: 45px;
+    display: flex;
+    justify-content: right;
+}
+
+.apartats {
+    display: inline;
+}
+
+.apartats a {
+    margin: 20px;
+    padding: 20px;
+    background: rgb(123,167,48);
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.apartats a:hover {
+    background: rgb(164, 197, 106);
+}
+
+.image {
+    width: 150px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+p {
+    color: white;
+}
+
+.table-container {
+    position: relative;
+    height: 275px;
+    width: 475px;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 200px 0 0 0;
+    background: rgb(49,59,75);
+    border-radius: 30px;
+}
+
+#table {
+    position: absolute;
+    border-collapse: collapse;
+    margin-top: 37.5px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+    height: 200px;
+}
+
+.table-row {
+    background: rgb(123,167,48);
+    text-align: center;
+}
+
+
+.table-title {
+    border-bottom: 3px solid rgb(49,59,75);
+    border-left: 2px solid rgb(49,59,75);
+}
+.table-column {
+    border-left: 2px solid rgb(49,59,75);
+}
+
+.column1 {
+    border-left: 0;
+}
+
+    .top-left {
+        border-top-left-radius: 20px;
+    }
+    .top-right {
+        border-top-right-radius: 20px;
+    }
+    .bottom-left {
+        border-bottom-left-radius: 20px;
+    }
+    .bottom-right {
+        border-bottom-right-radius: 20px;
+    }
+
+
+.container1 {
+    position: relative;
+    background: rgb(49,59,75);
+    border-radius: 20px;
+    margin: 200px 10px 0 10px;
+    padding: 30px;
+}
+
+.container2 {
+    position: relative;
+    background: rgb(49,59,75);
+    border-radius: 20px;
+    margin: 300px 10px 0px 10px;
+    padding: 30px;
+}
+
+.container3 {
+    position: relative;
+    background: rgb(49,59,75);
+    border-radius: 20px;
+    margin: 300px 10px 50px 10px;
+    padding: 30px;
+}
